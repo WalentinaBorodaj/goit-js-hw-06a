@@ -5,5 +5,34 @@ itemEl.forEach(item => {
   Elements: ${item.querySelectorAll('li').length}`);
 
 });
+// ===============вариант 2 =============================
+// 1.ищем коллекцию элементов внутри document  с одинаковым селектором .item
+
+// const itemEl = document.querySelectorAll('.item');
+// // console.log(itemEl);
+
+// // 2.выводим количество элементов массива
+
+// console.log(`Number of categories: ${itemEl.length}`);
+
+// // 3. перебираем элементы массива itemEl с помощью forEach и ищем один уникальный
+// //  элемент h2 и все элементы li в массиве 
+
+// itemEl.forEach(element => {
+//     const titleOfCategoryRef = element.querySelector('h2');
+//     const numberOfElementsRef = element.querySelectorAll('li');
+//     // console.log (titleOfCategoryRef);
+//     // console.log (numberOfElementsRef);
+
+//     // 4.выводим текстовое содержимое textContent переменной titleOfCategoryRef 
+//     // кол-во элементов массива numberOfElementsRef
+    
+//     console.log(`Category: ${titleOfCategoryRef.textContent}.
+//     Elements: ${numberOfElementsRef.length}`);
+    
+// });
+
+
+
 
 
