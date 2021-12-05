@@ -19,3 +19,15 @@ const galleryImgEl = images.map(img =>
     `<li><img src="${img.url}" alt="${img.alt}" width = 380px></li>`,
   ),
 );
+
+
+// ===============вариант 2 ============================
+
+// const listRef = document.querySelector(".gallery");
+
+// const markup = images.map((img) => 
+// `<li class="gallery-item"><img src=${img.url}
+//  alt='${img.alt}' width = '270'></li>`)
+//   .join("");
+
+// listRef.insertAdjacentHTML("beforeend", markup);
